@@ -13,6 +13,7 @@
             return
         }
         if (e == '%') {
+            output = eval(output)
             output = output / 100
             return
         }
